@@ -2,7 +2,6 @@ package skypro;
 
 public class Main {
     public static void main(String[] args) {
-
         int salaryMasha = 67_760;
         float newSalaryMasha = salaryMasha + salaryMasha * 0.1f;
         int yearSalaryMasha = salaryMasha * 12;
@@ -32,6 +31,5 @@ public class Main {
                 " руб/месяц.\nГодовая зарплата Кристины после повышения " + yearNewSalaryKristina +
                 " руб/год.\nРазница в зарплате составляет " + differenceSalaryKristina +
                 " руб/год.");
-
     }
 }
