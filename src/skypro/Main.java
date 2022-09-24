@@ -12,6 +12,8 @@ public class Main {
                 lostWeightOne + " грамм, то он сбросит неоходимых 7 кг через " + requiredDaysOne +
                 " дней. \nЕсли спортмен в день будет худеть на " + lostWeightTwo +
                 " грамм - через " + requiredDaysTwo + ".");
+        double averageRequiredDays = (requiredDaysOne + requiredDaysTwo) / 2;
+        System.out.println("Среднее количество дней " + averageRequiredDays);
 
     }
 }
