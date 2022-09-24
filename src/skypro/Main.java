@@ -2,18 +2,26 @@ package skypro;
 
 public class Main {
     public static void main(String[] args) {
-        byte variableByte = 1;
-        short variableShort = 1_000;
-        int variableInt = 100_000;
-        long variableLong = 1_000_000L;
-        float variableFloat = 1.25f;
-        double variableDouble = 1.256;
 
-        System.out.println("Значение переменной variableByte + с типом byte равно " + variableByte);
-        System.out.println("Значение переменной variableShort + с типом short равно " + variableShort);
-        System.out.println("Значение переменной variableInt + с типом int равно " + variableInt);
-        System.out.println("Значение переменной variableLong + с типом long равно " + variableLong);
-        System.out.println("Значение переменной variableFloat + с типом float равно " + variableFloat);
-        System.out.println("Значение переменной variableDouble + с типом double равно " + variableDouble);
+        float variableFloat = 27.12f;
+        long variableLong = 987_678_965_549L;
+        byte variableByteOne = 2;
+        short variableShortOne = 786;
+        boolean variableBoolean = false;
+        short variableShortTwo = 569;
+        short variableShortThree = -159;
+        int variableInt = 27897;
+        byte variableByteTwo = 67;
+
+        System.out.println("\nvariableFloat = " + variableFloat);
+        System.out.println("variableLong = " + variableLong);
+        System.out.println("variableByteOne = " + variableByteOne);
+        System.out.println("variableShortOne = " + variableShortOne);
+        System.out.println("variableBoolean = " + variableBoolean);
+        System.out.println("variableShortTwo = " + variableShortTwo);
+        System.out.println("variableShortThree = " + variableShortThree);
+        System.out.println("variableInt = " + variableInt);
+        System.out.println("variableByteTwo = " + variableByteTwo);
+
     }
 }
