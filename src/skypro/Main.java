@@ -15,6 +15,7 @@ public class Main {
         int numberEggs = 4;
         int weightEggs = 70;
         int totalWeightEggs = numberEggs * weightEggs;
+
         float totalWeightBreakfast = (totalWeightEggs + totalWeightBananas + totalWeightIceCream
                 + totalWeightMilk) / 1000f;
         System.out.println("Общий вес завтрака " + totalWeightBreakfast + " кг.");
