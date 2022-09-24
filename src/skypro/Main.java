@@ -13,6 +13,9 @@ public class Main {
         int variableInt = 27897;
         byte variableByteTwo = 67;
 
+        double variableDouble = 13.256;
+        char variableChar = '?';
+
         System.out.println("\nvariableFloat = " + variableFloat);
         System.out.println("variableLong = " + variableLong);
         System.out.println("variableByteOne = " + variableByteOne);
@@ -22,6 +25,9 @@ public class Main {
         System.out.println("variableShortThree = " + variableShortThree);
         System.out.println("variableInt = " + variableInt);
         System.out.println("variableByteTwo = " + variableByteTwo);
+        System.out.println("\nИнициализируем новые переменные с недостоющими типами.");
+        System.out.println("variableDouble = " + variableDouble);
+        System.out.println("variableChar = " + variableChar);
 
     }
 }
