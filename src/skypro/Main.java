@@ -23,5 +23,15 @@ public class Main {
                 " руб/год.\nРазница в зарплате составляет " + differenceSalaryDenis +
                 " руб/год.");
 
+        int salaryKristina = 76_230;
+        float newSalaryKristina = salaryKristina + salaryKristina * 0.1f;
+        int yearSalaryKristina = salaryKristina * 12;
+        float yearNewSalaryKristina = newSalaryKristina * 12;
+        float differenceSalaryKristina = yearNewSalaryKristina - yearSalaryKristina;
+        System.out.println("\nЗарплата Кристины после повышения " + newSalaryKristina +
+                " руб/месяц.\nГодовая зарплата Кристины после повышения " + yearNewSalaryKristina +
+                " руб/год.\nРазница в зарплате составляет " + differenceSalaryKristina +
+                " руб/год.");
+
     }
 }
