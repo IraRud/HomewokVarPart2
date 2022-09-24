@@ -3,18 +3,14 @@ package skypro;
 public class Main {
     public static void main(String[] args) {
 
-        byte bottleTwoMinutes = 16;
-        int bottleTwentyMinutes = bottleTwoMinutes * 10;
-        System.out.println("За 20 минут машина произвела " + bottleTwentyMinutes + " бутылок");
-
-        int bottleOneDay = bottleTwoMinutes * 30 * 24;
-        System.out.println("За 1 день машина произвела " + bottleOneDay + " бутылок");
-
-        int bottleThreeDay = bottleOneDay * 3;
-        System.out.println("За 3 дня машина произвела " + bottleThreeDay + " бутылок");
-
-        int bottleOneMonth = bottleOneDay * 30;
-        System.out.println("За 1 месяц (30 дней) машина произвела " + bottleOneMonth + " бутылок");
+        short cansOfTotalPaint = 120;
+        short cansOfWhitePaint = 2;
+        short cansOfBrownPaint = 4;
+        int numberOfClass = cansOfTotalPaint / (cansOfWhitePaint + cansOfBrownPaint);
+        System.out.println("В школе, где " + numberOfClass +
+                " классов, нужно " + numberOfClass * cansOfWhitePaint +
+                " банок белой краски и " + numberOfClass * cansOfBrownPaint +
+                " банок коричневой краски.");
 
     }
 }
